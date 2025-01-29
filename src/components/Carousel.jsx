@@ -37,7 +37,7 @@ const Carousel = ({
     <div className="w-full mx-auto mt-5">
       <Slider {...settings}>
         {React.Children.map(children, (child, index) => (
-          <div key={index} className="p-4">
+          <div key={index} className="p-6">
             {child}
           </div>
         ))}

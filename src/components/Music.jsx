@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { picture } from "../assets";
+import { daylight, illbe, lover, lovestory, musika, saturn, universe, yellow } from "../assets";
 import { ArrowLeft } from "./icons";
 
 function Music() {
@@ -9,61 +9,63 @@ function Music() {
   // Customize and add your own songs
   const songs = [
     {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
-      albumCover: picture, 
+      title: "Saturn",
+      artist: "Sza",
+      albumCover: saturn, 
       left: "5%",
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
-      albumCover: picture, 
+      title: "Lover",
+      artist: "Taylor Swift",
+      albumCover: lover, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
-      albumCover: picture, 
+      title: "Daylight",
+      artist: "Taylor Swift",
+      albumCover: daylight, 
       left: '15%',
       top: '40%',
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
-      albumCover: picture, 
+      title: "Love Story",
+      artist: "Taylor Swift",
+      albumCover: lovestory, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
-      albumCover: picture, 
+      title: "Your Universe",
+      artist: "Rico Blanco",
+      albumCover: universe, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
-      albumCover: picture, 
+      title: "Musika",
+      artist: "Dionela",
+      albumCover: musika, 
       left: '25%',
       top: '90%',
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
-      albumCover: picture, 
+      title: "Yellow",
+      artist: "Coldplay",
+      albumCover: yellow, 
       left: '35%',
-      top: '50%',
+      top: '53%',
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      albumCover: picture, 
+      title: "I'll Be",
+      artist: "Edwin McCain",
+      albumCover: illbe, 
       left: "10%",
       top: "25%",
     },
+    
+    
   ];
   const containerRef = useRef(null);
 

@@ -1,8 +1,8 @@
+import { CSSRulePlugin, gsap } from 'gsap/all';
 import React, { useEffect, useRef } from 'react';
-import { gsap, CSSRulePlugin } from 'gsap/all';
+import { useNavigate } from 'react-router-dom';
 import '../index.css';
-import { ArrowLeft,ArrowRight } from "./icons";
-import { useNavigate } from 'react-router-dom'
+import { ArrowLeft, ArrowRight } from "./icons";
 gsap.registerPlugin(CSSRulePlugin);
 
 function Letter() {
@@ -68,7 +68,7 @@ function Letter() {
               <div className="letter" ref={letterRef}>
                 <div className="body">
                   <span className="close">x</span>
-                  <div className="message">Hi, I love you so much</div>
+                  <div className="message">Click this magic letter!</div>
                 </div>
               </div>
             </div>

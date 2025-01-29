@@ -40,6 +40,14 @@ import sad from "./sad.jpg";
 import sad1 from "./sad1.jpg";
 import sad2 from "./sad2.png";
 
+import daylight from "./daylight.png";
+import illbe from "./illbe.jpg";
+import lover from "./lover.jpg";
+import lovestory from "./lovestory.png";
+import musika from "./musika.jpg";
+import saturn from "./saturn.jpg";
+import universe from "./universe.jpg";
+import yellow from "./yellow.jpg";
 
 
 import christmas from "./christmas.gif";
@@ -47,8 +55,7 @@ import fireworks from "./fireworks.gif";
 
 
 
-
 export {
-    christmas, fireworks, happy, happy1, happy2, pic00, pic1, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, picture, random1, random10, random11, random12, random2, random3, random4, random5, random6, random7, random8, random9, sad, sad1, sad2
+    christmas, daylight, fireworks, happy, happy1, happy2, illbe, lover, lovestory, musika, pic00, pic1, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, picture, random1, random10, random11, random12, random2, random3, random4, random5, random6, random7, random8, random9, sad, sad1, sad2, saturn, universe, yellow
 };
 

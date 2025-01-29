@@ -24,7 +24,7 @@ overflow-x: hidden;
 }
 
 .slick-dots {
-  bottom: 0 !important;
+  bottom: -30 !important;
 }
 
 .slick-slider .slick-dots li button:before {
