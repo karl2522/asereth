@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 // Passcode
-const CORRECT_PASSCODE = '1018' 
+const CORRECT_PASSCODE = '092023' 
 
 function Passcode() {
     const [passcode, setPasscode] = useState([])
@@ -13,7 +13,7 @@ function Passcode() {
         const newPasscode = [...passcode, number]
         setPasscode(newPasscode)
   
-        if (newPasscode.length === 4) {
+        if (newPasscode.length === 6) {
           const enteredPasscode = newPasscode.join('')
           if (enteredPasscode === CORRECT_PASSCODE) {
             setMessage('Yayy!! :)')
@@ -45,7 +45,7 @@ function Passcode() {
 
             {/* Passcode Dots */}
             <div className="flex gap-4 mb-16">
-            {[...Array(4)].map((_, i) => (
+            {[...Array(6)].map((_, i) => (
                 <div
                 key={i}
                 className={`w-3.5 h-3.5 rounded-full ${

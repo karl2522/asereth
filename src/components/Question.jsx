@@ -1,6 +1,5 @@
-import React from 'react'
-import { useState,useRef } from 'react'
-import { Search, Mic, Camera, ArrowLeft, X, Clock } from 'lucide-react'
+import { ArrowLeft, Camera, Mic, Search } from 'lucide-react'
+import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Google } from './icons'
 
@@ -11,7 +10,7 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Why is my bf so cute?', 'Why does Rheina love him more?', `Rheina's birthdate (coz her bf forgets)`,]
+  const trends = ['Nganong gwapa kaayo akong uyab?', 'Is jared gwapo?', `Valentine's day?`,]
 
   const handleSearch = (e) => {
     e.preventDefault()

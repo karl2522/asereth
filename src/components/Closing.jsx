@@ -1,7 +1,6 @@
-import React from 'react'
-import {ArrowLeft } from './icons'
-import { useNavigate } from 'react-router-dom'
-import { fireworks,christmas } from '../assets';
+import { useNavigate } from 'react-router-dom';
+import { christmas, fireworks } from '../assets';
+import { ArrowLeft } from './icons';
 
 function Closing() {
   const navigate = useNavigate();

@@ -1,12 +1,11 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ArrowRight } from './icons'
 
 function Timer() {
   // Anniversary date
-  const START_DATE = new Date('2024-10-18')
+  const START_DATE = new Date('2023-09-20')
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,

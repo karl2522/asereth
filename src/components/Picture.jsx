@@ -1,9 +1,9 @@
-import React from 'react'
+
+import { useNavigate } from 'react-router-dom'
 import { picture } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
-import {ArrowLeft } from './icons'
-import { useNavigate } from 'react-router-dom'
+import { ArrowLeft } from './icons'
 
 function Picture() {
   const navigate = useNavigate();
