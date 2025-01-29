@@ -1,9 +1,8 @@
-import React from "react";
-import { ArrowLeft } from "./icons";
-import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useRef } from "react";
-import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
+import React, { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import { picture } from "../assets";
+import { ArrowLeft } from "./icons";
 
 function Music() {
   const navigate = useNavigate();
@@ -12,56 +11,56 @@ function Music() {
     {
       title: "Heavenly",
       artist: "Cigarettes After Sex",
-      albumCover: heavenly, 
+      albumCover: picture, 
       left: "5%",
       top: "5%",
     },
     {
       title: "The Boy Is Mine",
       artist: "Brandy, Monica",
-      albumCover: brandy, 
+      albumCover: picture, 
       left: "40%",
       top: "15%",
     },
     {
       title: "Die With A Smile",
       artist: "Lady Gaga, Bruno Mars",
-      albumCover: bruno, 
+      albumCover: picture, 
       left: '15%',
       top: '40%',
     },
     {
       title: "Last Night on Earth",
       artist: "Green Day",
-      albumCover: greenday, 
+      albumCover: picture, 
       left: '30%',
       top: '75%',
     },
     {
       title: "American Boy",
       artist: "Estelle, Kanye West",
-      albumCover: kanye, 
+      albumCover: picture, 
       left: '5%',
       top: '65%',
     },
     {
       title: "Sparks",
       artist: "Coldplay",
-      albumCover: sparks, 
+      albumCover: picture, 
       left: '25%',
       top: '90%',
     },
     {
       title: "Kiss Me Thru The Phone",
       artist: "Soulja Boy, Sammie",
-      albumCover: souljaboy, 
+      albumCover: picture, 
       left: '35%',
       top: '50%',
     },
     {
       title: "Sunsetz",
       artist: "Cigarettes After Sex",
-      albumCover: sunsetz, 
+      albumCover: picture, 
       left: "10%",
       top: "25%",
     },

@@ -10,7 +10,7 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Nganong gwapa kaayo akong uyab?', 'Is jared gwapo?', `Valentine's day?`,]
+  const trends = ['Nganong gwapo kaayo akong uyab?', 'Is jared gwapo?', `Valentine's day?`,]
 
   const handleSearch = (e) => {
     e.preventDefault()
@@ -84,7 +84,7 @@ function Question() {
             </div>
           </form>
           <div className='mt-10  px-5 text-white/50'>
-            <p>Pro tip: try searching "How long have we been together?" ;)</p>
+            <p>Pro tip: try searching &quot;How long have we been together?&quot; ;)</p>
           </div>
         </div>
       )}

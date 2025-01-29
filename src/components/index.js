@@ -12,3 +12,4 @@ import Timer from './Timer';
 export {
   Carousel, Closing, Letter, Message, Music, Passcode, Picture, Question, Recap, Timer
 };
+
