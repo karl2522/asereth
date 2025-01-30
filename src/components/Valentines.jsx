@@ -36,7 +36,7 @@ function Valentines() {
       className="min-h-screen bg-black/20 flex flex-col items-center justify-center text-center px-4 cursor-pointer"
       onClick={handleClick}
     >
-      <h1 className="text-5xl sm:text-5xl leading-tight font-bold text-pink-600 mb-20">
+      <h1 className="text-2xl sm:text-5xl leading-tight font-bold text-pink-600 mb-20">
         {messages[step]}
       </h1>
 
