@@ -37,6 +37,22 @@ overflow-x: hidden;
   opacity: 1 !important;
 }
 
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(800px); /* You can adjust how far they fall */
+  }
+}
+
+.falling-image {
+  animation: fall 4s linear infinite; /* Fall animation that lasts 4 seconds */
+}
+
+.animate-fall {
+  animation: fall 4s linear infinite;
+}
 
 :root {
   --base: #5E5690;
