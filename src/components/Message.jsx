@@ -27,7 +27,7 @@ function Message() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
 
       <div className="w-[90%] max-w-[400px]">
-        <h1 className="text-2xl xs:text-2xl font-bold -mb-4 drop-shadow-lg text-white text-center">
+        <h1 className="text-2xl sm:text-2xl font-bold -mb-4 drop-shadow-lg text-white text-center">
             Our Messages
           </h1>
         <Carousel>
