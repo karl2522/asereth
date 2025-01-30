@@ -8,8 +8,9 @@ import Picture from './Picture';
 import Question from './Question';
 import Recap from './Recap';
 import Timer from './Timer';
+import Valentines from './Valentines';
 
 export {
-  Carousel, Closing, Letter, Message, Music, Passcode, Picture, Question, Recap, Timer
+  Carousel, Closing, Letter, Message, Music, Passcode, Picture, Question, Recap, Timer, Valentines
 };
 

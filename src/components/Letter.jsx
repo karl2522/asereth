@@ -1,8 +1,8 @@
 import { CSSRulePlugin, gsap } from 'gsap/all';
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../index.css';
-import { ArrowLeft, ArrowRight } from "./icons";
+import { ArrowLeft } from "./icons";
 gsap.registerPlugin(CSSRulePlugin);
 
 function Letter() {
@@ -66,7 +66,7 @@ function Letter() {
             <div className="content">
               <div className="envelope" ref={envelopeRef}></div>
               <div className="letter" ref={letterRef}>
-                <div className="body">
+                <div className="body" onClick={() => navigate('/valentines')}>
                   <span className="close">x</span>
                   <div className="message">Click this magic letter!</div>
                 </div>
@@ -75,19 +75,14 @@ function Letter() {
           </div>
         </div>
 
-        <div className="flex justify-between w-full p-6 mb-10">
+        <div className="flex justify-center w-full p-6 mb-10">
             <button
               className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
               onClick={() => navigate('/recap')}
             >
               <ArrowLeft />  Previous page
             </button>
-            <button
-              className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm sm:text-base border border-white/50 rounded-lg"
-              onClick={() => navigate('/closing')}
-            >
-              Next page <ArrowRight />
-            </button>
+           
           </div>
         
       </div>

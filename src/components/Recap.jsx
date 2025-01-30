@@ -1,7 +1,6 @@
-import React from 'react'
-import { ArrowRight,ArrowLeft,Message,Image,Music,Heart } from './icons'
-import { useNavigate } from 'react-router-dom'
-import '../index.css'
+import { useNavigate } from 'react-router-dom';
+import '../index.css';
+import { ArrowLeft, ArrowRight, Heart, Image, Message, Music } from './icons';
 function Recap() {
   const navigate = useNavigate();
 
@@ -10,7 +9,7 @@ function Recap() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center p-4">
     <div className="w-full max-w-sm sm:max-w-md text-center">
       <h1 className="text-2xl sm:text-4xl font-bold mb-8 text-white drop-shadow-lg">
-        Let's recap our time together
+        Let&apos;s recap our time together
       </h1>
   
       <div className="flex flex-wrap justify-center gap-10 mb-12">

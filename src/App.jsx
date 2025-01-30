@@ -1,8 +1,8 @@
 
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {Closing, Letter,Passcode,Question,Recap,Timer,Message,Music,Picture} from './components'
-import './index.css'
+import React from 'react';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Closing, Letter, Message, Music, Passcode, Picture, Question, Recap, Timer, Valentines } from './components';
+import './index.css';
 function App() {
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
         <Route path="/recap/pictures" element={<Picture />} />
         <Route path="/letter" element={<Letter />} />
         <Route path="/closing" element={<Closing />} />
+        <Route path="/valentines" element={<Valentines />} />
       </Routes>
     </Router>
   )
